@@ -1,7 +1,7 @@
 {
   "name": "stauffer-tax-tools",
   "description": "Tax analysis and wealth planning tools for solopreneurs and business owners.",
-  "author": {
+  "owner": {
     "name": "Ben Stauffer",
     "github": "benstauffer"
   },
