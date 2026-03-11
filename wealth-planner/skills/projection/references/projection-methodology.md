@@ -59,7 +59,7 @@ $200,000 single / $250,000 MFJ — adds 3.8% on net investment income.
 $184,500 for 2026 — earnings above this are exempt from the 12.4% SS tax (but not Medicare).
 
 ### SALT Deduction Phase-Out
-$500,000 MAGI — the $40,400 SALT cap starts phasing down.
+$505,000 MAGI — the $40,400 SALT cap starts phasing down.
 
 ### Top Federal Bracket
 $640,601 single / $768,701 MFJ — income above this is taxed at 37%.

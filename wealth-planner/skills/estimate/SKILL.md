@@ -223,6 +223,6 @@ When receiving transcript data, use the prior year as baseline and model the CUR
 
 - Always show the SE tax deduction calculation explicitly — the additional Medicare tax (0.9%) is NOT included in the deductible portion
 - For S-Corp, validate reasonable compensation against IRS factors before calculating
-- SALT cap for 2026 is $40,400 (phases out for MAGI > $500,000)
+- SALT cap for 2026 is $40,400 (phases out for MAGI > $505,000)
 - QBI phase-out ranges were expanded by OBBBA to $75K/$150K
 - Always caveat: "This is an estimate for planning purposes. Consult a CPA for filing."

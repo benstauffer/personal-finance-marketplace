@@ -925,10 +925,10 @@ salt_cap:
   floor: 10000
   floor_mfs: 5000
   phasedown_rate: 0.30
-  phasedown_begins: 500500
-  phasedown_begins_mfs: 250250
-  phasedown_complete: 601833
-  phasedown_complete_mfs: 300917
+  phasedown_begins: 505000
+  phasedown_begins_mfs: 252500
+  phasedown_complete: 606333
+  phasedown_complete_mfs: 303167
   annual_adjustment: 1.01
   expiration: "2029-12-31"
   reversion_amount: 10000
@@ -2402,7 +2402,7 @@ If AI can answer these accurately with source references, your update was succes
 
 **SALT Cap (Section 201):**
 - Limit: $40,400 ($20,200 MFS)
-- Phasedown: 30% of MAGI over $500,500 ($250,250 MFS)
+- Phasedown: 30% of MAGI over $505,000 ($252,500 MFS)
 - Floor: $10,000 ($5,000 MFS)
 - **Expires:** 2029-12-31 (reverts to $10,000 cap on 2030-01-01)
 

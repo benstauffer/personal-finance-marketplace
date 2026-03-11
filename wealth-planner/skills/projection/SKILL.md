@@ -89,7 +89,7 @@ Flag when income crosses critical thresholds:
 - SSTB QBI cliff (if applicable)
 - Additional Medicare threshold ($200,000 / $250,000)
 - NIIT threshold ($200,000 / $250,000)
-- SALT phase-out ($500,000 MAGI)
+- SALT phase-out ($505,000 MAGI)
 - Top federal bracket ($640,601 / $768,701)
 - Social Security wage base ($184,500)
 
