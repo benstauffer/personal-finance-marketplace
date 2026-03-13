@@ -11,7 +11,7 @@ version: 0.1.0
 
 # Multi-Year Projection Model
 
-Build a year-by-year financial projection covering business income, taxes, retirement savings, and net worth accumulation. Default to 5 years. Always output both chat tables AND an Excel workbook.
+Build a year-by-year financial projection covering business income, taxes, retirement savings, and net worth accumulation. Default to 5 years. Output all results as formatted tables and analysis directly in chat.
 
 ## Required Inputs
 
@@ -122,17 +122,6 @@ Flag when income crosses critical thresholds:
 - Total net worth growth
 - Average effective tax rate
 
-### Excel Output
-Create an Excel workbook with tabs:
-1. **Dashboard** — summary table above + key metrics
-2. **Year-by-Year Detail** — full calculation for each year (one column per year)
-3. **Tax Detail** — bracket-by-bracket breakdown per year
-4. **Retirement** — contribution calculations and account growth
-5. **Net Worth** — portfolio accumulation with beginning/ending balances
-6. **Assumptions** — all inputs, growth rates, and parameters
-7. **Threshold Map** — shows each threshold and which year it's crossed
-
-Generate the workbook using a Python script via Bash (openpyxl). Apply conditional formatting to highlight threshold crossings. Include simple charts for income growth, tax burden, and net worth trajectory.
 
 ## Reference Data
 
@@ -189,10 +178,6 @@ After the projection table, always add:
 **Cumulative Impact of All Recommendations:**
 > Implementing all recommended actions saves an estimated $[total] over [N] years compared to maintaining the status quo.
 
-### Excel Output — Action Plan Tab
-
-Add an 8th tab:
-8. **Action Plan** — Year-by-year recommended actions, threshold crossings, dollar impacts, and deadlines. Color-code: red = act this year, yellow = next 1-2 years, green = plan ahead.
 
 ## Transcript Input Support
 

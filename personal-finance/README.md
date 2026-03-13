@@ -31,9 +31,7 @@ The Tax Review skill automatically pre-populates data for the other skills — n
 
 ## Output
 
-Every command produces both:
-1. **Chat output** — Formatted tables, analysis, and actionable recommendations directly in the conversation
-2. **Excel workbook** — Multi-tab spreadsheet saved to your outputs folder (generated via Python/openpyxl)
+Every command produces formatted tables, analysis, and actionable recommendations directly in chat — no files generated.
 
 ## Tax Data
 

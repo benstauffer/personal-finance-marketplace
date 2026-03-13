@@ -8,8 +8,6 @@ Build a multi-year financial projection for a business owner using the projectio
 
 If $ARGUMENTS is provided, parse it for starting income and projection horizon (years). Ask for any missing required inputs.
 
-Load the projection skill and follow its full workflow. Default to 5 years if not specified. Always produce:
-1. A formatted chat summary with year-by-year tables and threshold alerts
-2. An Excel workbook saved to the outputs folder (generated via Python/openpyxl using Bash)
+Load the projection skill and follow its full workflow. Default to 5 years if not specified. Output year-by-year tables, threshold alerts, and year-by-year action items directly in chat.
 
 Read references/tax-parameters.md for all 2026 tax data and references/projection-methodology.md for projection defaults.

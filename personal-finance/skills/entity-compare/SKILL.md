@@ -11,7 +11,7 @@ version: 0.1.0
 
 # Entity Comparison: S-Corp vs Schedule C
 
-Run a side-by-side tax comparison to determine whether S-Corp election saves money at the user's income level. Always output both chat tables AND an Excel workbook.
+Run a side-by-side tax comparison to determine whether S-Corp election saves money at the user's income level. Output all results as formatted tables and analysis directly in chat.
 
 ## Required Inputs
 
@@ -159,17 +159,6 @@ If income is growing, show when S-Corp becomes beneficial:
 | $300,000 | | | | |
 | $500,000 | | | | |
 
-### Excel Output
-Create an Excel workbook with tabs:
-1. **Comparison** — side-by-side summary (the main table)
-2. **Schedule C Detail** — full tax calculation
-3. **S-Corp Detail** — full tax calculation including payroll
-4. **QBI Analysis** — QBI deduction under each entity with wage limitation test
-5. **Breakeven** — chart data showing savings at different income levels
-6. **Reasonable Comp** — salary analysis with IRS factors
-7. **Assumptions** — all inputs and parameters
-
-Generate the workbook using a Python script via Bash (openpyxl). Highlight the winning entity in green. Include a breakeven chart.
 
 ## State-Specific Considerations
 

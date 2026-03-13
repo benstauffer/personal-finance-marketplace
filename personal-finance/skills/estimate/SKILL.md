@@ -11,7 +11,7 @@ version: 0.1.0
 
 # Tax Estimate for Business Owners
 
-Produce a comprehensive tax liability estimate. Always output both a chat summary with formatted tables AND an Excel workbook.
+Produce a comprehensive tax liability estimate. Output all results as formatted tables and analysis directly in chat.
 
 ## Required Inputs
 
@@ -127,16 +127,6 @@ Present a summary table:
 | **Effective Tax Rate** | |
 | **Marginal Tax Rate** | |
 
-### Excel Output
-Create an Excel workbook with tabs:
-1. **Summary** — the table above with formatting
-2. **Federal Detail** — bracket-by-bracket calculation showing tax at each rate
-3. **SE / Payroll** — full payroll tax breakdown
-4. **QBI Worksheet** — QBI calculation with wage limit test
-5. **State Tax** — state bracket calculation
-6. **Assumptions** — all inputs and parameters used
-
-Generate the workbook using a Python script via Bash (openpyxl). Apply currency formatting, bold headers, and highlight the total row.
 
 ## Reference Data
 
@@ -192,10 +182,6 @@ After the summary table, add:
 
 Then 1-2 sentences on the single highest-impact move.
 
-### Excel Output — Recommendations Tab
-
-Add a 7th tab to the workbook:
-7. **Recommendations** — Each action, the before/after tax impact, and implementation notes
 
 ## Transcript Input Support
 
