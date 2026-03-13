@@ -1,6 +1,9 @@
 {
   "name": "personal-finance",
   "description": "Tax analysis and wealth planning tools for solopreneurs and business owners.",
+  "owner": {
+    "github": "benstauffer"
+  },
   "plugins": [
     {
       "name": "personal-finance",
